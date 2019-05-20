@@ -1,0 +1,52 @@
+.image {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+    background-color:blueviolet;
+}
+.image-univese {
+    width: 56px;
+    height: 48px;
+    display: inline-block;
+    text-indent: -99999px;
+    background-color:blueviolet;
+    width: 56px;
+    height: 48px;
+}
+.person-image{
+    background-image: url(pessoa.png)
+}
+.universe-image{
+    background-image: url(universe.jpg);
+  
+}
+
+
+.search{
+    display: inline-flex;
+    width: 100%;
+    margin-top: 18px;
+    justify-content: center;
+}
+
+.container-search{
+    width: 1034px;
+}
+
+.form-search{
+    width: 500px;
+    margin-left: auto;
+    margin-right: 210px;
+}
+
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1;
+    margin: 10px;
+    font-size: 23px;
+  }

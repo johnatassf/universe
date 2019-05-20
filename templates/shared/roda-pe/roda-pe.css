@@ -1,0 +1,35 @@
+.icones-redes-sociais a {
+  width: 40px;
+  height: 40px;
+  display:  inline-block;
+  margin: 5px
+  
+}
+
+.icones-redes-sociais li{
+    list-style: none;
+    display: inline-block;
+    width: 20px;
+}
+
+.roda{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-top: 40px;
+    border-top: 1px solid;
+    flex-wrap: wrap;
+}
+.roda ul{
+    margin-left: 10px;
+    padding-left: 0;
+    padding-right: 10px; 
+}
+.roda nav{
+    display: inline-flex;
+}
+
+footer{
+    justify-content: center;
+    display: flex;
+}
