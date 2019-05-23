@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/universe/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/universe/templates/meusDados/meusDados.css">
+    <title>Meus Dados</title>
+</head>
+
+<body>
+    <!-- conteudo header -->
+    <header id="header"></header>
+
+
+
+    <main>
+
+        <div class="h2">
+
+            <h2>sss</h2>
+        </div>
+        <div class="corpo-principal" style="">
+
+        <div class="card" style="width: 18rem;margin-left: 18px">
+            <img src="/universe/image/usuario.png" class="card-img-top img-fluid"  alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+   
+      
+            <form class="formulario">
+                <div class="form-group">
+
+                    <div style="display: flex">
+                        <div class="ladoNome" style="display: flex">
+                            <label for="nome">Nome : </label>
+                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                        </div>
+                        <div class="ladoSobrenome" style="display: flex">
+                            <label for="nome">Sobrenome : </label>
+                            <input type="text" class="form-control" id="sobrenome">
+                        </div>
+                    </div>
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    <label for="nome">Senha : </label>
+                    <input type="password" class="form-control" id="senha">
+                    <label for="nome">CEP : </label>
+                    <input type="text" class="form-control" id="cep">
+
+                    <button class="btn btn-primary" type="submit">Editar</button>
+                </div>
+            </form>
+
+
+            <div class="corpo-principal" style="display: flex;margin-top: 10px">
+                <form class="formulario">
+                    <div class="form-group">
+                        <div class="cep" style="display: flex">
+                            <label for="name">CEP :</label>
+                            <input type="text" class="form-control" id="cep">
+                        </div>
+                        <div style="display: flex">
+                            <div class="endereco" style="display: flex">
+                                <label for="name">Endereço : </label>
+                                <input type="text" class="form-control" id="Endereço">
+                            </div>
+                            <div class="numero" style="display: flex">
+                                <label for="number">Numero : </label>
+                                <input type="number" class="form-control" id="numero">
+                            </div>
+                        </div>
+                        <div style="display: flex">
+                            <div class="estado" style="display: flex">
+                                <label for="nome">Estado: </label>
+
+
+                                <input type="text" class="form-control" id="estado">
+                            </div>
+                            <div class="cidade" style="display: flex">
+                                <label for="nome">Cidade: </label>
+
+
+                                <input type="text" class="form-control" id="cidade">
+                            </div>
+                        </div>
+                        <div class="bairro" style="display: flex">
+                            <label for="nome">Bairro: </label>
+
+                            <input type="text" class="form-control" id="bairro">
+                        </div>
+                        <div class="complemento" style="display: flex">
+                            <label for="nome">Complemento: </label>
+                            <input type="tel" class="form-control" id="complemento">
+                        </div>
+
+                        <button class="btn btn-primary" type="submit">Editar</button>
+                    </div>
+                </form>
+
+            
+
+
+
+
+    </main>
+
+
+
+
+    <!-- conteudo roda-pé -->
+    <div id="roda-pe"></div>
+
+    <!-- scripts bootstrap -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script>
+        $("#header").load("/universe/templates/shared/menu/menu.html");
+        $("#roda-pe").load("/universe/templates/shared/roda-pe/roda-pe.html");
+
+    </script>
+
+</body>
+
+</html>

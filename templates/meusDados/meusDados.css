@@ -1,0 +1,113 @@
+.formulario{
+ 
+    margin-left: 10px;
+    width: 450px!important; 
+    background-color: #F8F9FA;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+     
+ 
+   
+ }
+
+ #nome{
+     width: 190px;
+ }
+ 
+ #sobrenome{
+     width: 190px;
+    
+
+ }
+ 
+ #senha{
+     width: 200px;
+ }
+ .corpo-principal{
+   
+    flex-wrap: wrap;
+    display: flex; 
+    margin-top: 10px;
+    justify-content: space-around;
+
+ }
+
+ #cep{
+     width: 250px
+     
+ }
+
+ #email{
+     width: 400px;
+ }
+ .ladoNome{
+    display: flex;
+    flex-direction: column;
+
+ }
+ .ladoSobrenome{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+
+ }
+ .endereco{
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+    
+ }
+ .numero{
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+    margin-left: 30px;
+ }
+
+ .estado{
+    display: flex;
+    flex-direction: column;
+    width: 165px;     
+}
+
+.cidade{
+    display: flex;
+    flex-direction: column;
+    width: 165px;
+    margin-left: 30px;
+   
+}
+.bairro{
+    display: flex;
+    flex-direction: column;
+    width: 250px
+}
+.complemento{
+    display: flex;
+    flex-direction: column;
+    width: 200px
+}
+.cep{
+    display: flex;
+    flex-direction: column;
+}
+
+
+ .h2{
+     margin-top: 50px;
+     margin-left: 80px
+ }
+ 
+ .btn{
+     margin-top: 30px;
+    
+     
+  
+ }
+ 
+ .corpo-principal label{
+     margin-bottom: 0px;
+     margin-top: 10px;
+     justify-content: space-around;
+ }
