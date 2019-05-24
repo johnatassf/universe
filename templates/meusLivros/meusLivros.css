@@ -1,0 +1,57 @@
+
+.parte-cima{
+    display: flex!important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+.meu-perfil{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.ordernar-btn{
+    display: flex;
+    margin-left: 150px;
+}
+.mostrar-btn{
+    display: flex;
+}
+.corpo-principal{
+ display: flex;
+}
+
+#nome{
+    margin-bottom: 0%;
+}
+.descricao-livro{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.dados-livros{
+display: flex;
+flex-direction: flex;  
+background-color: #F8F9FA;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.todos-livros{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;    
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.btn-ler{
+    margin-bottom: 10px;
+}

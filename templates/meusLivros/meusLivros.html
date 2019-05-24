@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/universe/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="/universe/templates/meusLivros/meusLivros.css">
+    <title>Meus Livros</title>
+</head>
+
+<body>
+    <!-- conteudo header -->
+    <header id="header"></header>
+
+
+
+    <main>
+
+            <div class="parte-cima">
+                <div class="ordernar-btn">
+       <div class="ordernar">
+           <p>ordernar por :</p>
+       </div> 
+        
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                       
+                    <div class="btn-group" role="group">
+                      <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        E-book
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                        <a class="dropdown-item" href="#">Livro físico</a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mostrar-btn">
+                  <div class="mostrar">
+                        <p>Mostrar :</p>
+                    </div> 
+
+                  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                       
+                        <div class="btn-group" role="group">
+                          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            20
+                          </button>
+                          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                            <a class="dropdown-item" href="#">40</a>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                              <button type="button" class="btn btn-secondary">1</button>
+                              <button type="button" class="btn btn-secondary">2</button>
+                              <button type="button" class="btn btn-secondary">3</button>
+                            </div>
+                      </div>
+
+                </div>
+        <div class="corpo-principal" >                 
+
+        <div class="card" style="width: 12rem">
+            <img src="/universe/image/usuario.png" class="card-img-top img-fluid"  alt="...">
+           <div class="meu-perfil">
+               <h2>Meu perfil</h2>
+           </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Meus Dados</li>
+                <li class="list-group-item">Meus Livros</li>
+                <li class="list-group-item">Chat</li>
+            </ul>
+        </div>
+
+    
+        <div class="todos-livros">
+
+        <div class="dados-livros" style="display: flex">
+           
+        <div class="livro" style="width:120px">
+            <img src="/universe/image/pedra-filosofal.jpg" class="img-thumbnail" alt="...">
+        </div>
+
+        <div class="descricao-livro">
+            <p id="nome">Harry potter</p>
+            <p>Autor do livro</p>
+        </div>
+
+        <div class="botoes">
+            <button class="btn-ler" type="submit">Ler</button>
+            <button class="chat" type="submit">Entrar no chat</button>
+        </div>
+      </div>
+     
+
+     <div class="dados-livros" style="display: flex">
+           
+        <div class="livro" style="width:120px">
+            <img src="/universe/image/pedra-filosofal.jpg" class="img-thumbnail" alt="...">
+        </div>
+
+        <div class="descricao-livro">
+            <p id="nome">Harry potter</p>
+            <p>Autor do livro</p>
+        </div>
+
+        <div class="botoes">
+            <button class="btn-ler" type="submit">Ler</button>
+            <button class="chat" type="submit">Entrar no chat</button>
+        </div>
+      </div>
+      <div class="dados-livros" style="display: flex">
+           
+        <div class="livro" style="width:120px">
+            <img src="/universe/image/pedra-filosofal.jpg" class="img-thumbnail" alt="...">
+        </div>
+
+        <div class="descricao-livro">
+            <p id="nome">Harry potter</p>
+            <p>Autor do livro</p>
+        </div>
+
+        <div class="botoes">
+            <button class="btn-ler" type="submit">Ler</button>
+            <button class="chat" type="submit">Entrar no chat</button>
+        </div>
+      </div>
+     </div>
+
+    </main>
+
+
+
+
+    <!-- conteudo roda-pé -->
+    <div id="roda-pe"></div>
+
+    <!-- scripts bootstrap -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script>
+        $("#header").load("/universe/templates/shared/menu/menu.html");
+        $("#roda-pe").load("/universe/templates/shared/roda-pe/roda-pe.html");
+
+    </script>
+
+</body>
+
+</html>
