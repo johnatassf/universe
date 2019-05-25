@@ -1,0 +1,47 @@
+.imagem-descricao-livro {
+  position: relative;
+  margin-left: 26px;
+  margin-top: 30px;
+  display: inline-flex;
+  height: 266px;
+  width: 15%;
+}
+.dados-avaliacao {
+  flex-direction: column;
+  display: flex;
+}
+.mini-descricao {
+  flex-direction: column;
+  margin-top: 49px;
+  margin-left: 87px;
+  width: 80%;
+  justify-content: space-around;
+}
+.mini-descricao p {
+  margin-bottom: 0px;
+}
+.tipo-livro {
+  display: inline-flex;
+  margin-left: 10px;
+  width: 260px;
+}
+.tipo-livro label {
+  margin-left: 10px;
+  border: 1px solid #b2cde5;
+  height: 42px;
+  padding: 10px;
+}
+.descricoes {
+  display: inline-flex;
+  width: 50%;
+  height: 142px;
+  margin-left: 20px;
+  margin-right: 28px;
+  border-width: 1px;
+}
+
+.button-compra{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
