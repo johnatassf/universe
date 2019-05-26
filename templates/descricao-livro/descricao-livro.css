@@ -5,6 +5,7 @@
   display: inline-flex;
   height: 266px;
   width: 15%;
+  min-width: 210px;
 }
 .dados-avaliacao {
   flex-direction: column;
@@ -13,16 +14,14 @@
 .mini-descricao {
   flex-direction: column;
   margin-top: 49px;
-  margin-left: 87px;
   width: 80%;
   justify-content: space-around;
+  padding: 20px;
 }
 .mini-descricao p {
   margin-bottom: 0px;
 }
 .tipo-livro {
-  display: inline-flex;
-  margin-left: 10px;
   width: 260px;
 }
 .tipo-livro label {
@@ -43,5 +42,9 @@
 .button-compra{
     display: flex;
     flex-direction: column;
-    float: right;
+    float: left;
+}
+
+.detalhes-livro{
+  background-color: white;
 }
