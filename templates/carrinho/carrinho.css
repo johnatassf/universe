@@ -1,0 +1,51 @@
+.todos-livros{
+    display: flex;
+}
+.qtd{
+    border-radius: 25px;
+}
+
+.todos-livros{
+    display: flex;
+    justify-content: space-around;
+    border-width: medium;
+    border-style: solid;
+    border-color: black;
+    width: 1000px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+     
+}
+
+.descricao-livro{
+    margin-top: 50px;
+
+}
+
+.qtd{
+    margin-top: 60px;
+}
+.dias{
+    margin-top: 60px;
+}
+
+.preco{
+    margin-top: 60px
+}
+.carrinho{
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+.corpo-principal{
+    display: flex;
+    flex-direction: column;
+}
+.calcular{
+    display: flex;
+}
+
+.todos-livros{
+  
+height: 133px;
+}
+
