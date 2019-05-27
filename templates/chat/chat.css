@@ -1,0 +1,83 @@
+.contatos {
+  flex-direction: column;
+  height: 90%;
+  width: 301px;
+  overflow: auto;
+}
+.principal {
+  display: flex;
+  height: 500px;
+  
+  border: 1px solid #d4d6d8;
+ 
+}
+.principal input{
+    height: 30px;
+    width: 268px;
+   
+    margin-right: 20px;
+    background: #f8f9fa;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.contatos .contato img {
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.contatos .contato {
+  display: flex;
+  align-items: baseline;
+  margin: 15px;
+  position: relative;
+  overflow: auto;
+}
+
+.mensagens {
+  width: 100%;
+  margin-top: 47px;
+  margin-left: 10px;
+  overflow: auto;
+}
+.text-msg{
+    margin-left: 10px;
+}
+
+.mensagens .container {
+  
+  padding: 10px;
+  margin: 10px 0;
+}
+
+
+
+.mensagens .container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.mensagens .container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}

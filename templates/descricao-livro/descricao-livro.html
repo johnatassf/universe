@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="/universe/reset.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/universe/templates/chat/chat.css">
+    <link rel="stylesheet" href="/universe/templates/descricao-livro/descricao-livro.css">
+    <title>Index</title>
+</head>
+
+<body>
+    <!-- conteudo header -->
+    <header id="header"></header>
+
+    <main>
+        <div class=" d-inline-flex w-100 flex-wrap">
+
+            <div class="imagem-descricao-livro">
+                <img class="img-fluid" src="/universe/image/pedra-filosofal.jpg" alt="descrição do livro">
+            </div>
+
+            <div class="mini-descricao">
+                <div class="d-inline-flex flex-wrap">
+                    <div>
+                        <p>Harry Potter e a pedra filosofal</p>
+                        <p>J.K Rowling</p>
+                        <p>Icon avaliação</p>
+                    </div>
+                    <div class="tipo-livro d-flex flex-md-column ">
+                        <label>Livro Fisico</label>
+                        <label>Livro Digital</label>
+                    </div>
+                </div>
+                <hr style="flex-direction: column; width: 100%">
+                <div class="flex-column m-l-20">
+                  
+                    <div style="flex-direction: column;margin-left: 35px;">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label>Produto disponivél </label>
+                    </div>
+
+                    <div class="input-group mb-3 col-3" style="flex-direction: column;float: left; min-width: 230px;">
+                        <label>Calcule o frete</label>
+                        <div style=" display: flex">
+                            <input type="text" class="form-control" placeholder="Cep" aria-label="Cep"
+                                aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button type="button" class="btn btn-light">Ok</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-compra ">
+                        <button type="button" class="btn btn-light">Comprar</button>
+                        <button type="button " class="btn btn-light m-t-10-p">Adicionar ao carrinnho</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="card">
+        <div class="card-header detalhes-livro">
+            Destaque
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Sinopse</h5>
+            <div>
+                Harry Potter (Daniel Radcliffe) é um garoto órfão de 10 anos que vive infeliz com seus tios,
+                os Dursley. Até que, repentinamente, ele recebe uma carta contendo um convite para ingressar em
+                Hogwarts, uma famosa escola especializada em formar jovens bruxos. Inicialmente Harry é impedido de ler
+                a carta por seu tio Válter (Richard Griffiths), mas logo ele recebe a visita de Hagrid (Robbie
+                Coltrane), o guarda-caça de Hogwarts, que chega em sua casa para levá-lo até a escola. A partir de então
+                Harry passa a conhecer um mundo mágico que jamais imaginara, vivendo as mais diversas aventuras com seus
+                mais novos amigos, Rony Weasley (Rupert Grint) e Hermione Granger (Emma Watson).
+            </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+            <div class="card" style="border-style: none">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            <h5>Detalhes do livro</h>
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse show detalhes-livro" aria-labelledby="headingOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        <p>detalhe</p>
+                        <p>detalhe</p>
+                        <p>detalhe</p>
+                        <p>detalhe</p>
+                        <p>detalhe</p>
+                        <p>detalhe</p>
+                        <p>detalhe</p>
+                        <p>detalhe</p>
+                        <p>detalhe</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- conteudo roda-pé -->
+    <div id="roda-pe"></div>
+
+    <!-- scripts bootstrap -->
+    <!-- scripts bootstrap -->
+    <script type="text/javascript" src="/universe/bootstrap-4.3.1/js/jquery-3.4.1.min.js"> </script>
+    <script type="text/javascript" src="/universe/bootstrap-4.3.1/js/popper.min.js"> </script>
+    <script type="text/javascript" src="/universe/bootstrap-4.3.1/js/bootstrap.js"> </script>
+    <script type="text/javascript" src="/universe/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        $("#header").load("/universe/templates/shared/menu/menu.html");
+        $("#roda-pe").load("/universe/templates/shared/roda-pe/roda-pe.html");
+
+    </script>
+
+</body>
+
+</html>
