@@ -1,0 +1,66 @@
+.comeco{
+    text-align: center;
+    margin-top: 55px;
+
+}
+.alert{
+    padding: 0px!important;
+    width: 452px;
+    margin-top: 32px;
+}
+
+.formulario{
+ 
+    margin-left: 10px;
+    width: 450px!important; 
+    background-color: #F8F9FA;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+        
+ }
+
+#numero{
+    height: 27px;
+    margin-left: 14px;
+}
+
+#estado{
+height: 27px;
+margin-left: 14px;
+margin-right: 14px;
+}
+
+#endereco{
+height: 27px;
+margin-left: 14px;
+margin-right: 14px;
+}
+
+#cep{
+height: 27px;
+margin-left: 14px;
+}
+#bairro{
+    height: 27px;
+    margin-left: 14px;
+}
+#complemento{
+    height: 27px;
+    margin-left: 14px;
+}
+#cidade{
+    height: 27px;
+    margin-left: 14px;
+    
+}
+
+.todos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.numero-cartao{
+    display: flex;
+    flex-direction: column;
+}
