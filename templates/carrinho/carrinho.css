@@ -4,6 +4,12 @@
 .qtd{
     border-radius: 25px;
 }
+hr{
+    position: absolute;
+    width: 718px;
+    background: black;
+    height: 1px;
+}
 
 .todos-livros{
     display: flex;
