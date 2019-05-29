@@ -1,52 +1,88 @@
 .image {
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    text-indent: -99999px;
-    background-color:blueviolet;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-indent: -99999px;
+  background-color: blueviolet;
 }
 .image-univese {
-    width: 56px;
-    height: 48px;
-    display: inline-block;
-    text-indent: -99999px;
-    background-color:blueviolet;
-    width: 56px;
-    height: 48px;
+  width: 56px;
+  height: 48px;
+  display: inline-block;
+  text-indent: -99999px;
+  background-color: blueviolet;
+  width: 56px;
+  height: 48px;
 }
-.person-image{
-    background-image: url(pessoa.png)
+.person-image {
+  background-image: url(pessoa.png);
 }
-.universe-image{
-    background-image: url(universe.jpg);
-  
-}
-
-
-.search{
-    display: inline-flex;
-    width: 100%;
-    margin-top: 18px;
-    justify-content: center;
+.universe-image {
+  background-image: url(universe.jpg);
 }
 
-.container-search{
-    width: 1034px;
+.search {
 }
 
-.form-search{
-    width: 500px;
-    margin-left: auto;
-    margin-right: 210px;
+.container-search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container-search .form-group {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /* float: none; */
+  /* margin-left: auto; */
+  padding: 20px;
+  /* margin-right: auto; */
+  height: 64px;
+  width: 50%;
+}
+.container-search .form-group input{
+    margin-left: 20px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.form-search {
 }
 
 .icon::before {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    line-height: 1;
-    margin: 10px;
-    font-size: 23px;
-  }
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1;
+  margin: 10px;
+  font-size: 23px;
+}
+
+.menu-ul li a {
+  font-size: 25px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+}
+.imagem-logo {
+    width: 249px;
+    position: relative;
+    /* bottom: 85px; */
+    position: absolute;
+    top: 0px;
+    opacity: 0.9;
+
+}
+
+.imagem-logo img {
+  width: 249px;
+  position: absolute;
+  bottom: -130px;
+}
+
+.person-image{
+    background-image: url("/universe/image/usuario-contatos.png");
+    border-radius: 20px;
+    width: 4%;
+    margin-top: 26px;
+}

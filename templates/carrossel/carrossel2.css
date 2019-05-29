@@ -1,0 +1,42 @@
+.foto{
+  width: 100px;
+  height: 300px;
+  background-color: bisque;
+
+}
+
+.conteudo{
+  height: 300px;
+  width: 300px;
+  left: 0px;
+  display: inline-block;
+  overflow: hidden;
+
+}
+
+.cores1{
+  background-color: black
+}
+
+.cores2{
+  background-color: red
+}
+
+.cores3{
+  background-color: blue
+}
+
+.cores4{
+  background-color: pink
+}
+
+.cores5{
+  background-color: black
+}
+.nav{
+  width: 800px;
+  /* float: left; */
+  transition: 2s cubic-bezier(0, 1.16, 0.77, 0.8);
+  position: relative;
+  left: 0px;
+}
