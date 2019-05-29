@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/universe/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/universe/templates/carrinho/carrinho.css">
+    <title>Meus Livros</title>
+</head>
+
+<body>
+    <!-- conteudo header -->
+    <header id="header"></header>
+
+
+
+    <main>
+        <div class="carrinho">
+
+            <h4>Seu carrinho de compras</h4>
+           
+
+
+        </div>
+        <div class="calcular">
+            <div class="corpo-principal">
+                
+
+            <div class="todos-livros">
+
+
+
+                <div class="livro" style="width:89px">
+                    <img src="/universe/image/pedra-filosofal.jpg" class="img-thumbnail" alt="...">
+                </div>
+
+                <div class="descricao-livro">
+                    <p id="nome">Harry potter</p>
+                    <p>Autor do livro</p>
+
+
+                </div>
+
+                <div class="qtd">
+                    <p>1</p>
+                </div>
+
+                <div class="dias">
+
+                    <p>7 dias uteis</p>
+                </div>
+
+                <div class="preco">
+                    <p>R$ 99,90</p>
+                </div>
+
+
+            </div>
+            <div class="todos-livros">
+
+
+
+                <div class="livro" style="width:89px">
+                    <img src="/universe/image/pedra-filosofal.jpg" class="img-thumbnail" alt="...">
+                </div>
+
+                <div class="descricao-livro">
+                    <p id="nome">Harry potter</p>
+                    <p>Autor do livro</p>
+
+
+                </div>
+
+                <div class="qtd">
+                    <p>1</p>
+                </div>
+
+                <div class="dias">
+
+                    <p>7 dias uteis</p>
+                </div>
+
+                <div class="preco">
+                    <p>R$ 99,90</p>
+                </div>
+
+
+
+
+            </div>
+        </div>
+        <div class="subtotal">
+            <div class="sub">
+                <p style="margin-left: 39px;
+              border-bottom: 1px solid #000;
+              width: 225px;">sub-total</p>
+            </div>
+
+
+            <div class="juntar" style="display: flex;  margin-left: 39px; border-bottom: 1px solid #000; ">
+
+                <div class="produto">
+
+                    <p style="margin-bottom: 0rem">produto (2 itens) </p>
+                    <p>Frente</p>
+
+                </div>
+
+                <div class="prodpreco" style="margin-left: auto;">
+                    <p style="margin-bottom: 0rem"> R$ 99,77 </p>
+                    <p> R$ 7,99 </p>
+
+                </div>
+
+
+            </div>
+
+            <div class="todss" style="display: flex;">
+                <div class=" total" style="margin-left: 39px;">
+                    <p>TOTAL </p>
+                </div>
+
+                <div class="precoo" style="margin-left: auto">
+                    <p>R$ 99,77</p>
+
+                </div>
+            </div>
+            <div class="botao" style="margin-top: 30px; 
+                margin-left: 84px; ">
+
+                <button type="button" class="btn btn-primary btn-lg">Continuar</button>
+            </div>
+        </div>
+
+
+
+        </div>
+
+        </div>
+
+    </main>
+
+
+
+
+    <!-- conteudo roda-pé -->
+    <div id="roda-pe"></div>
+
+    <!-- scripts bootstrap -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script>
+        $("#header").load("/universe/templates/shared/menu/menu.html");
+        $("#roda-pe").load("/universe/templates/shared/roda-pe/roda-pe.html");
+
+    </script>
+
+</body>
+
+</html>
