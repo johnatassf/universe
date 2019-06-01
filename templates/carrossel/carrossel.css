@@ -1,112 +1,80 @@
-.carouselbox {
-  font-family: helvetica, sans-serif;
-  font-size: 14px;
-  width: 200px;
-  position: relative;
-  margin: 1em;
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px 10px #ccc;
-  overflow: hidden;
+.foto {
+  width: 5%;
+  height: 231px;
+  display: flex;
 }
-.content {
-  margin: 0;
-  padding: 0;
-}
-
-.content li {
-  font-size: 100px;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  list-style: none;
-  text-align: center;
-}
-.active {
-  height: 160px;
-}
-.active li {
-  position: absolute;
-  top: 200px;
-}
-.active li.current {
-  top: 30px;
-}
-
-.active .buttons {
-  padding: 5px 0;
-  background: #eee;
-  text-align: center;
-  z-index: 10;
-  position: relative;
-}
-.carouselbox button {
-  border: none;
-  display: none;
-}
-.active button {
-  display: block;
-}
-.offscreen {
-  position: absolute;
-  left: -2000px;
-}
-
-.carroussel {
-  font-family: helvetica, sans-serif;
-  font-size: 14px;
-  width: 60%;
-  position: relative;
-  margin: 1em;
-  /* border: 1px solid #ccc; */
-  /* box-shadow: 2px 2px 10px #ccc; */
-  overflow: hidden;
-}
-.conteudo {
+.foto .card {
+  width: 10rem;
   justify-content: center;
   display: flex;
 }
-.conteudo image {
-  font-size: 100px;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  list-style: none;
-  text-align: center;
-}
-.activee {
-  height: 460px;
-}
-.activee .imagens {
-  position: absolute;
-  top: 600px;
-}
-.activee .imagens.atual {
-  top: 20px;
-}
 
-/* .activee .imagens img {
-  height: 272px;
-  width: 200px;
-} */
-
-button.proximo{
-  float: right;
-  /* margin-top: 130px; */
-  height: 100%;
+.conteudo {
+  height: 300px;
+  left: 0px;
+  display: inline-block;
+  overflow: hidden;
+  height: 247px;
+  width: 200%;
+  /* left: 0px; */
+  display: inline-block;
+  overflow: hidden;
+  margin-top: 20px;
+  flex: center;
+}
+.direcao {
   position: relative;
-  background-color: #f5f3f3;
-  border-style: none;
+  margin-top: -305px;
+  height: 300px;
   opacity: 0.5;
+  background-color: black;
+  width: 51px;
 }
-button.anterior{
+
+.direcao.esquerda {
   float: left;
-  /* margin-top: 130px; */
-  height: 100%;
-  position: relative;
-  background-color: #f5f3f3;
-  border-style: none;
-  opacity: 0.5;
 }
-.imagens{
+.direcao.direita {
+  float: right;
+}
+.nav {
+  width: 200%;
+  /* float: left; */
+  transition: 2s cubic-bezier(0.46, 0.43, 0.57, 0.57);
+  position: relative;
+  left: 0px;
+}
+
+/* seletores referente ao design */
+.info-compra{
+  margin-left: 10px;
+   flex-direction: column;
+    font-family: inherit;
+     color: white"
+}
+.info-compra .title{
+  font-size: 34px;
+    color: white;
+    font-family: auto;
+
+}
+.info-compra .valor{
+
+}
+.info-compra .disponibilidade{
+  color: #028a02
+}
+.info-compra .entrega{
+  color: #028a02;
+}
+.info-compra i{
+  margin-right: 5px
+}
+.info-compra p{
+  margin-bottom: 4px;
+}
+.info-compra button{
+  width: 100%;
   display: flex;
+  margin-top: 26px;
 }
