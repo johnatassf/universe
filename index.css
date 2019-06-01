@@ -20,7 +20,7 @@
   margin-left: 30px;
   width: 165px;
   margin-top: 20px;
-  background-color: black;
+  background-color: #0ec8b5;
   border-color: white;
 }
 .form-login p {
@@ -38,10 +38,11 @@
   border-radius: 19px;
 }
 .form-cadastro button {
-    margin-left: 30px;
+    
     width: 150px;
     margin-top: 20px;
-    background-color: black;
+    background-color: #0ec8b5;;
+    border: white
     /* border-color: white; */
   }
 

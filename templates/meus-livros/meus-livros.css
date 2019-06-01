@@ -1,57 +1,79 @@
-
-.parte-cima{
-    display: flex!important;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    justify-content: space-around;
+.parte-cima {
+  display: flex !important;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: center;
+  width: 80%;
 }
-.meu-perfil{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 15px;
-}
-
-.ordernar-btn{
-    display: flex;
-    margin-left: 150px;
-}
-.mostrar-btn{
-    display: flex;
-}
-.corpo-principal{
- display: flex;
+.meu-perfil {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
 }
 
-#nome{
-    margin-bottom: 0%;
+.ordernar-btn {
+  display: flex;
+  margin-left: 150px;
 }
-.descricao-livro{
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
+.mostrar-btn {
+  display: flex;
 }
-
-.dados-livros{
-display: flex;
-flex-direction: flex;  
-background-color: #F8F9FA;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 20px;
-}
-.todos-livros{
-    display: flex;
-    flex-direction: column;
-    margin-left: 200px;
+.corpo-principal {
+  display: flex;
+  margin-left: 60px;
 }
 
-.botoes{
-    display: flex;
-    flex-direction: column;    
-    margin-left: 10px;
-    margin-top: 50px;
+#nome {
+  margin-bottom: 0%;
+}
+.descricao-livro {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
 }
 
-.btn-ler{
-    margin-bottom: 10px;
+.dados-livros {
+  display: flex;
+  flex-direction: flex;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.todos-livro {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px !important;
+  overflow: auto;
+  height: 760px;
+  width: 60%;
+  padding-right: 30px;
+  width: 60%;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+  margin-left: 15%;
+ 
+}
+.botoes button{
+    height: 40px;
+    padding-top: 10px;
+    background-color: #02baa770!important;
+    margin-top: 10px
+}
+
+.btn-ler {
+  margin-bottom: 10px;
+}
+.livro{
+    padding-right: 30px;
+}
+.livro img{
+    padding: 0px!important;
+    width: 138px!important;
+   
 }

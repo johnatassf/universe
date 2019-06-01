@@ -61,13 +61,13 @@
 }
 
 .menu-ul li a {
-  font-size: 25px;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    font-family: fantasy;
+    color: #0ec8b5;
+    font-size: 29px;
 }
 .imagem-logo {
     width: 249px;
     position: relative;
-    /* bottom: 85px; */
     position: absolute;
     top: 0px;
     opacity: 0.9;
@@ -75,14 +75,20 @@
 }
 
 .imagem-logo img {
-  width: 249px;
+  width: 103px;
   position: absolute;
-  bottom: -130px;
+  bottom: -87px;
 }
 
 .person-image{
-    background-image: url("/universe/image/usuario-contatos.png");
-    border-radius: 20px;
+    
+    border-radius: 60px;
     width: 4%;
     margin-top: 26px;
+    top: -10px;
+    position: relative;
+}
+
+.person-image img {
+    border-radius: 62px;
 }
