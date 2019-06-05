@@ -40,10 +40,10 @@
   height: 64px;
   width: 50%;
 }
-.container-search .form-group input{
-    margin-left: 20px;
-    height: 50px;
-    border-radius: 25px;
+.container-search .form-group input {
+  margin-left: 20px;
+  height: 50px;
+  border-radius: 25px;
 }
 
 .form-search {
@@ -61,34 +61,83 @@
 }
 
 .menu-ul li a {
-    font-family: fantasy;
-    color: #0ec8b5;
-    font-size: 29px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #2aa7df;
+  font-size: 29px;
+}
+#navbarDropdown {
+  margin-right: 92px;
+  right: 107px !important  ;
+}
+#navbarDropdown,
+ul li a.nav-link {
+  font-size: 20px !important;
+  color: #2aa7df !important;
+}
+ul {
+  margin-left: 172px !important;
+  width: 70%;
 }
 .imagem-logo {
-    width: 249px;
-    position: relative;
-    position: absolute;
-    top: 0px;
-    opacity: 0.9;
-
+  width: 19%;
+  height: 73%;
+  position: relative;
+  top: 20px;
+  right: 74px;
 }
 
 .imagem-logo img {
-  width: 103px;
+  width: 98px;
   position: absolute;
-  bottom: -87px;
+  bottom: -68px;
 }
 
-.person-image{
-    
-    border-radius: 60px;
-    width: 4%;
-    margin-top: 26px;
-    top: -10px;
-    position: relative;
+.person-image {
+  border-radius: 60px;
+  width: 4%;
+  margin-top: 26px;
+  top: -10px;
+  position: relative;
 }
 
 .person-image img {
-    border-radius: 62px;
+  border-radius: 62px;
+}
+.menu {
+  background-color: #eff7ff9e !important;
+  height: 158px;
+  align-items: initial;
+}
+.menu .alinhar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.menu .alinhar input {
+  height: 63px;
+  border-radius: 10px;
+}
+
+.menu .alinhar button {
+  height: 63px;
+}
+
+p.logo {
+  top: 14px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 54px;
+  position: relative;
+  right: 58px;
+}
+.imagem-user {
+  width: 100px;
+  height: 100px;
+  border-radius: 29px;
+  position: relative;
+  top: 8px;
+  margin-left: 20px;
+}
+ p.cadastro {
+  top: 30px;
+  position: relative;
 }

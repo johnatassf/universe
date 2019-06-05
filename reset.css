@@ -52,7 +52,8 @@ body{
   height: 100%;
 }
 header{
-  width: 100%
+  width: 100%;
+  
 }
 footer{
   width: 100%
@@ -63,3 +64,10 @@ body{
 main{
   padding-top: 25px;
 }
+main form{
+  background-color:#f0f8ff00!important; 
+}
+form button{
+  background-color: #2aa7df!important
+}
+
