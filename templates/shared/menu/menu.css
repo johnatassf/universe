@@ -137,7 +137,13 @@ p.logo {
   top: 8px;
   margin-left: 20px;
 }
- p.cadastro {
+p.cadastro {
   top: 30px;
   position: relative;
+}
+.imagem-carrinho {
+  height: 77px;
+  position: relative;
+  left: 56px;
+  top: 24px;
 }
