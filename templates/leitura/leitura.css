@@ -1,0 +1,77 @@
+.form-login {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 10px;
+  height: 275px;
+  background-color: #ebf0f4;
+  border-radius: 19px;
+}
+
+.form-login input {
+  margin-top: 20px;
+}
+
+.form-login .inputs {
+  width: 437px;
+}
+
+.form-login button {
+  margin-left: 30px;
+  width: 165px;
+  margin-top: 20px;
+  background-color: #0ec8b5;
+  border-color: white;
+}
+.form-login p {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.form-cadastro {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 10px;
+  height: 529px;
+  background-color: #ebf0f4;
+  border-radius: 19px;
+}
+.form-cadastro button {
+  width: 150px;
+  margin-top: 20px;
+  background-color: #0ec8b5;
+  border: white;
+  /* border-color: white; */
+}
+
+.form-cadastro p {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.check-receber-email {
+  display: flex;
+  align-content: flex-end;
+  margin-left: auto;
+  margin-top: 16px;
+  margin-right: 24px;
+}
+
+.space-form {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 25px;
+}
+.font-leitura p {
+  font-family: cursive;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 20px;
+};
+
+button .direita{
+  float: right;
+}
