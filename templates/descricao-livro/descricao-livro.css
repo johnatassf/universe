@@ -48,3 +48,10 @@
 .detalhes-livro{
   background-color: white;
 }
+.tipo-livro{
+  margin-left: 80px;
+}
+.juntar{
+  display: flex;
+    flex-direction: column;
+}

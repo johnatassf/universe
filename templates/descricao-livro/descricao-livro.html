@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/universe/templates/chat/chat.css">
     <link rel="stylesheet" href="/universe/templates/descricao-livro/descricao-livro.css">
     <title>Index</title>
+
 </head>
 
 <body>
@@ -32,10 +33,14 @@
                     <div>
                         <p>Harry Potter e a pedra filosofal</p>
                         <p>J.K Rowling</p>
-                        <p>Icon avaliação</p>
+                       <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
                     </div>
-                    <div class="tipo-livro d-flex flex-md-column ">
-                        <label>Livro Fisico</label>
+                    <div class="tipo-livro d-flex  ">
+                        <label style="border: solid">Livro Fisico</label>
                         <label>Livro Digital</label>
                     </div>
                 </div>
@@ -44,22 +49,24 @@
                   
                     <div style="flex-direction: column;margin-left: 35px;">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label>Produto disponivél </label>
+                        <label>Produto disponível </label>
                     </div>
-
+                    <div class="juntar">
                     <div class="input-group mb-3 col-3" style="flex-direction: column;float: left; min-width: 230px;">
                         <label>Calcule o frete</label>
                         <div style=" display: flex">
-                            <input type="text" class="form-control" placeholder="Cep" aria-label="Cep"
+                            <input type="text"  style="margin-right: 10px;" class="form-control" placeholder="Cep" aria-label="Cep"
                                 aria-describedby="basic-addon2">
                             <div class="input-group-append">
-                                <button type="button" class="btn btn-light">Ok</button>
+                                <button type="button" style="border: solid 1px" class="btn btn-light">Ok</button>
                             </div>
                         </div>
                     </div>
-                    <div class="button-compra ">
-                        <button type="button" class="btn btn-light">Comprar</button>
-                        <button type="button " class="btn btn-light m-t-10-p">Adicionar ao carrinnho</button>
+                    <div style="display: flex; flex-direction: row;" class="button-compra ">
+                        <button type="button" style="width: 150px; margin-right:150px; margin-left: 15px; border: solid 1px;" class="btn btn-light">Comprar</button>
+                        <button type="button" style="width: 150px; border: solid 1px;" class="btn btn-light m-t-10-p">Adicionar ao carrinnho</button>
+                    
+                    </div>
                     </div>
 
                 </div>
