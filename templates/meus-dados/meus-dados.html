@@ -23,92 +23,89 @@
 
         <div class="corpo-principal">
 
-            <div class="card" style="width: 12rem">
-                <img src="/universe/image/usuario.png" class="card-img-top img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Meu Perfil</h5>
+                <div class="card" style="width: 12rem; height: 270px;">
+                    <img src="/universe/image/usuario.png" class="card-img-top img-fluid" alt="...">
 
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-items ">
-                        <a href="/universe/templates/meus-livros/meus-livros.html">Meus Livros</a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="/universe/templates/chat/chat.html">Chat</a></li>
-                </ul>
-
-            </div>
-
-
-            <form class="formulario">
-                <div class="form-group">
-
-                    <div style="display: flex">
-                        <div class="ladoNome" style="display: flex">
-                            <label for="nome">Nome : </label>
-                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
-                        </div>
-                        <div class="ladoSobrenome" style="display: flex">
-                            <label for="nome">Sobrenome : </label>
-                            <input type="text" class="form-control" id="sobrenome">
-                        </div>
+                    <div class="meu-perfil">
+                        <h2>Meu perfil</h2>
                     </div>
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
-                    <label for="nome">Senha : </label>
-                    <input type="password" class="form-control" id="senha">
-                    <label for="nome">CEP : </label>
-                    <input type="text" class="form-control" id="cep">
-
-                    <button class="btn btn-primary" type="submit">Editar</button>
+                    <ul class="list-group list-group-flush w-100" style="margin-left: 0px!important">
+                        <li class="list-group-item">Meus Dados</li>
+                        <li class="list-group-item">Meus Livros</li>
+                        <li class="list-group-item">Chat</li>
+                    </ul>
                 </div>
-            </form>
 
 
-            <div class="corpo-principal" style="display: flex;margin-top: 10px">
                 <form class="formulario">
                     <div class="form-group">
-                        <div class="cep" style="display: flex">
-                            <label for="name">CEP :</label>
-                            <input type="text" class="form-control" id="cep">
-                        </div>
+
                         <div style="display: flex">
-                            <div class="endereco" style="display: flex">
-                                <label for="name">Endereço : </label>
-                                <input type="text" class="form-control" id="Endereço">
+                            <div class="ladoNome" style="display: flex">
+                                <label for="nome">Nome : </label>
+                                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
                             </div>
-                            <div class="numero" style="display: flex">
-                                <label for="number">Numero : </label>
-                                <input type="number" class="form-control" id="numero">
-                            </div>
-                        </div>
-                        <div style="display: flex">
-                            <div class="estado" style="display: flex">
-                                <label for="nome">Estado: </label>
-
-
-                                <input type="text" class="form-control" id="estado">
-                            </div>
-                            <div class="cidade" style="display: flex">
-                                <label for="nome">Cidade: </label>
-
-
-                                <input type="text" class="form-control" id="cidade">
+                            <div class="ladoSobrenome" style="display: flex">
+                                <label for="nome">Sobrenome : </label>
+                                <input type="text" class="form-control" id="sobrenome">
                             </div>
                         </div>
-                        <div class="bairro" style="display: flex">
-                            <label for="nome">Bairro: </label>
-
-                            <input type="text" class="form-control" id="bairro">
-                        </div>
-                        <div class="complemento" style="display: flex">
-                            <label for="nome">Complemento: </label>
-                            <input type="tel" class="form-control" id="complemento">
-                        </div>
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        <label for="nome">Senha : </label>
+                        <input type="password" class="form-control" id="senha">
+                        <label for="nome">CEP : </label>
+                        <input type="text" class="form-control" id="cep">
 
                         <button class="btn btn-primary" type="submit">Editar</button>
                     </div>
                 </form>
+
+
+                <div class="corpo-principal" style="display: flex;margin-top: 10px">
+                    <form class="formulario">
+                        <div class="form-group">
+                            <div class="cep" style="display: flex">
+                                <label for="name">CEP :</label>
+                                <input type="text" class="form-control" id="cep">
+                            </div>
+                            <div style="display: flex">
+                                <div class="endereco" style="display: flex">
+                                    <label for="name">Endereço : </label>
+                                    <input type="text" class="form-control" id="Endereço">
+                                </div>
+                                <div class="numero" style="display: flex">
+                                    <label for="number">Numero : </label>
+                                    <input type="number" class="form-control" id="numero">
+                                </div>
+                            </div>
+                            <div style="display: flex">
+                                <div class="estado" style="display: flex">
+                                    <label for="nome">Estado: </label>
+
+
+                                    <input type="text" class="form-control" id="estado">
+                                </div>
+                                <div class="cidade" style="display: flex">
+                                    <label for="nome">Cidade: </label>
+
+
+                                    <input type="text" class="form-control" id="cidade">
+                                </div>
+                            </div>
+                            <div class="bairro" style="display: flex">
+                                <label for="nome">Bairro: </label>
+
+                                <input type="text" class="form-control" id="bairro">
+                            </div>
+                            <div class="complemento" style="display: flex">
+                                <label for="nome">Complemento: </label>
+                                <input type="tel" class="form-control" id="complemento">
+                            </div>
+
+                            <button class="btn btn-primary" type="submit">Editar</button>
+                        </div>
+                    </form>
 
 
 

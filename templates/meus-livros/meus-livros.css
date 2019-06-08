@@ -17,6 +17,7 @@
 }
 .mostrar-btn {
   display: flex;
+  margin-left: 20px;
 }
 .corpo-principal {
   display: flex;
@@ -42,14 +43,13 @@
 .todos-livro {
   display: flex;
   flex-direction: column;
-  margin-left: 120px !important;
   overflow: auto;
   height: 760px;
   width: 60%;
   padding-right: 30px;
-  width: 60%;
+  width: 77%;
   padding: 20px;
-  padding-top: 0px;
+  padding-top: 0px
 }
 
 .botoes {

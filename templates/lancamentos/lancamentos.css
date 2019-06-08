@@ -1,5 +1,5 @@
 .foto {
-  width: 5%;
+  width: 7%;
   height: 231px;
   display: flex;
 }
@@ -10,7 +10,7 @@
 }
 
 .conteudo {
-  height: 300px;
+  height: 233px;
   left: 0px;
   display: inline-block;
   overflow: hidden;
@@ -19,7 +19,7 @@
   /* left: 0px; */
   display: inline-block;
   overflow: hidden;
-  margin-top: 150px;
+  
   flex: center;
 }
 .direcao {
@@ -84,6 +84,4 @@
 h1.titulo-carrossel{
   color: #00628e;
     margin-left: 80px;
-    position: relative;
-    top: 142px;
 }

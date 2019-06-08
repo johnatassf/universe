@@ -63,7 +63,7 @@
 .menu-ul li a {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #2aa7df;
-  font-size: 29px;
+  font-size: 15px;
 }
 #navbarDropdown {
   margin-right: 92px;
@@ -71,7 +71,7 @@
 }
 #navbarDropdown,
 ul li a.nav-link {
-  font-size: 20px !important;
+  font-size: 15px !important;
   color: #2aa7df !important;
 }
 ul {
@@ -114,7 +114,7 @@ ul {
   justify-content: center;
 }
 .menu .alinhar input {
-  height: 63px;
+  height: 50px;
   border-radius: 10px;
 }
 
@@ -130,8 +130,8 @@ p.logo {
   right: 58px;
 }
 .imagem-user {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 29px;
   position: relative;
   top: 8px;
